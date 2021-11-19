@@ -1,0 +1,45 @@
+https://cursos.alura.com.br/category/front-end#javascript
+https://cursos.alura.com.br/course/typescript-avancando-linguagem
+
+npm install
+npm install typescript@4.2.2 --save-dev
+npm run compile
+npm run server
+
+1 - ELABORANDO UMA SOLUÇÃO DE VIEW 
+Utilizando a API do DOM, podemos criar elementos dinamicamente através de document.createElement 
+	ou através da propriedade innerHTML que recebe uma string que é convertida para elementos do DOM
+Inspiração no React para criação de templates declarativos e dinâmicos
+Manipulação declarativa do DOM através de template
+Template dinâmico
+Formatação de datas usando Intl
+ 
+2 - HERANÇA E REAPROVEITAMENTO DE CÓDIGO
+Herança com TypeScript
+Classes com tipo genérico
+Classes abstratas
+O modificador protected
+
+3 - VISIBILIDADE DE MÉTODOS E ENUMERATION
+date.getDay()
+	os dias da semana são representados por número que vão de 0 (domingo) a 6 (sábado)
+Visibilidade de métodos
+Validando negociações em dias úteis
+Vantagens do uso de enums
+Cuidados com enums
+
+4 - LAPIDANDO NOSSO CÓDIGO
+Revisão da lógica de conversão negociações
+Método estáticos
+Parâmetros opcionais
+Parâmetros opcionais devem ser sempre os últimos parâmetros
+
+5 - TSC E STRICTNULLCHECKS
+Remoção de comentários do código compilado
+	No arquivo tsconfig.json adicionar "removeComments": true
+	Isso fará com que os comentários não apareçam nos arquivos .js
+Ativação do strictNullChecks
+	No arquivo tsconfig.json adicionar "StrictNullChecks": true
+	Tratando null em nosso código
+Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
+Benefícios do strictNullChecks no controle do fluxo da sua aplicação
